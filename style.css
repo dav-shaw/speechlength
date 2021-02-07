@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: helvetiva, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 4rem;
+    background-color: rgb(184, 130, 130);
+}
+
+.app {
+    max-width: 600px;
+    border: 1px solid black;
+    background: white;
+    margin: 2rem auto;
+}
+
+#heading {
+    text-align: center;
+    padding: 1rem;
+}
+
+#minute-field {
+    border: 1px solid indianred;
+    font-size: 4rem;
+    max-width: 150px;
+}
+
+#response {
+    padding: 1rem;
+    text-align: center;
+    color: indianred;
+}
+
+#credit {
+    color: indianred;
+    text-align: center;
+    font-size: .5rem;
+}
+
+#credit a {
+    color: rgb(139, 61, 61);
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 3rem;
+    }
+    .app {
+        max-width: 80vw;
+    }
+    #minute-field {
+        font-size: 3rem;
+        max-width: 100px;
+    }
+}
